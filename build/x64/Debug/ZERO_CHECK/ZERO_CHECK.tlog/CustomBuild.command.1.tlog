@@ -1,0 +1,10 @@
+^E:\PVZ\BUILD\CMAKEFILES\3B710708557D636CA8052D2029AD2854\GENERATE.STAMP.RULE
+setlocal
+D:\mingw64\bin\cmake.exe -SE:/PvZ -BE:/PvZ/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/PvZ/build/PvZ.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

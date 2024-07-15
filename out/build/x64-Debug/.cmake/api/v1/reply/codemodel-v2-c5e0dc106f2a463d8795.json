@@ -1,0 +1,274 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "SOIL",
+					"jsonFile" : "directory-SOIL-Debug-2b7609f4db92a4d2e04c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "third_party/SOIL",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "freeglut",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-freeglut-Debug-58d8eba8f9098010e23b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "third_party/freeglut",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"build" : "src/Framework",
+					"jsonFile" : "directory-src.Framework-Debug-6638a606d0c681d79aed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/Framework",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/GameObject",
+					"jsonFile" : "directory-src.GameObject-Debug-90033b514e8e8b2afa8a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/GameObject",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/GameWorld",
+					"jsonFile" : "directory-src.GameWorld-Debug-c844abc5c4633c912dbb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/GameWorld",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/GameObject/Plants",
+					"jsonFile" : "directory-src.GameObject.Plants-Debug-9132b9e434801f41ad1f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/GameObject/Plants",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/GameObject/Seeds",
+					"jsonFile" : "directory-src.GameObject.Seeds-Debug-91f00ad3a68225c8dd39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/GameObject/Seeds",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "PvZ",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SOIL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "freeglut",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "Framework::@bbcc00d4dd4c98727359",
+					"jsonFile" : "target-Framework-Debug-f548b7dc5fd9fc80ca14.json",
+					"name" : "Framework",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "GameObject::@cf4d02a5657504c132a7",
+					"jsonFile" : "target-GameObject-Debug-1a5b0390f6b9a313601d.json",
+					"name" : "GameObject",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "GameWorld::@2c651ff0fb8a858345be",
+					"jsonFile" : "target-GameWorld-Debug-73280b72b11ac9bf755c.json",
+					"name" : "GameWorld",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Plants::@5f086fe6fea075bda65c",
+					"jsonFile" : "target-Plants-Debug-1d2fedb3dc891b87b7ba.json",
+					"name" : "Plants",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PvZ::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PvZ-Debug-45b3083b7b3fdbd95b5a.json",
+					"name" : "PvZ",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SOIL::@745e8b768a24c48fa97d",
+					"jsonFile" : "target-SOIL-Debug-a07b8b00598ee04a54f6.json",
+					"name" : "SOIL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Seeds::@544edb0c7446fe093213",
+					"jsonFile" : "target-Seeds-Debug-e7b8dd9bb62e63810743.json",
+					"name" : "Seeds",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-freeglut-Debug-4bb82b7d84b0549af757.json",
+					"name" : "freeglut",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut_static::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-freeglut_static-Debug-a2ee6bb100f1c2e7d1e3.json",
+					"name" : "freeglut_static",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/project/c_work/PvZ/out/build/x64-Debug",
+		"source" : "E:/project/c_work/PvZ"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

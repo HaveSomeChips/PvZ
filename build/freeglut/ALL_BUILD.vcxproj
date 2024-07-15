@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6B344069-6118-3746-8E6D-8243F848AE17}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\PvZ\third_party\freeglut\src;E:\PvZ\third_party\freeglut\include;E:\PvZ\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\PvZ\third_party\freeglut\src;E:\PvZ\third_party\freeglut\include;E:\PvZ\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\PvZ\third_party\freeglut\src;E:\PvZ\third_party\freeglut\include;E:\PvZ\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\PvZ\third_party\freeglut\src;E:\PvZ\third_party\freeglut\include;E:\PvZ\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\PvZ\third_party\freeglut\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/PvZ/third_party/freeglut/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\mingw64\bin\cmake.exe -SE:/PvZ -BE:/PvZ/build --check-stamp-file E:/PvZ/build/freeglut/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\mingw64\share\cmake-3.29\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\mingw64\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\mingw64\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckCCompilerFlag.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckFunctionExists.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckIncludeFile.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckIncludeFiles.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckTypeSize.cmake;D:\mingw64\share\cmake-3.29\Modules\FindOpenGL.cmake;D:\mingw64\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;D:\mingw64\share\cmake-3.29\Modules\FindPackageMessage.cmake;D:\mingw64\share\cmake-3.29\Modules\GNUInstallDirs.cmake;D:\mingw64\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;D:\mingw64\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;D:\mingw64\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;D:\mingw64\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;E:\PvZ\third_party\freeglut\FreeGLUTConfig.cmake.in;E:\PvZ\third_party\freeglut\config.h.in;E:\PvZ\third_party\freeglut\freeglut.pc.in;E:\PvZ\third_party\freeglut\freeglut.rc.in;E:\PvZ\third_party\freeglut\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\PvZ\build\freeglut\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/PvZ/third_party/freeglut/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\mingw64\bin\cmake.exe -SE:/PvZ -BE:/PvZ/build --check-stamp-file E:/PvZ/build/freeglut/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\mingw64\share\cmake-3.29\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\mingw64\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\mingw64\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckCCompilerFlag.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckFunctionExists.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckIncludeFile.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckIncludeFiles.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckTypeSize.cmake;D:\mingw64\share\cmake-3.29\Modules\FindOpenGL.cmake;D:\mingw64\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;D:\mingw64\share\cmake-3.29\Modules\FindPackageMessage.cmake;D:\mingw64\share\cmake-3.29\Modules\GNUInstallDirs.cmake;D:\mingw64\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;D:\mingw64\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;D:\mingw64\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;D:\mingw64\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;E:\PvZ\third_party\freeglut\FreeGLUTConfig.cmake.in;E:\PvZ\third_party\freeglut\config.h.in;E:\PvZ\third_party\freeglut\freeglut.pc.in;E:\PvZ\third_party\freeglut\freeglut.rc.in;E:\PvZ\third_party\freeglut\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\PvZ\build\freeglut\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/PvZ/third_party/freeglut/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\mingw64\bin\cmake.exe -SE:/PvZ -BE:/PvZ/build --check-stamp-file E:/PvZ/build/freeglut/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\mingw64\share\cmake-3.29\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\mingw64\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\mingw64\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckCCompilerFlag.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckFunctionExists.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckIncludeFile.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckIncludeFiles.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckTypeSize.cmake;D:\mingw64\share\cmake-3.29\Modules\FindOpenGL.cmake;D:\mingw64\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;D:\mingw64\share\cmake-3.29\Modules\FindPackageMessage.cmake;D:\mingw64\share\cmake-3.29\Modules\GNUInstallDirs.cmake;D:\mingw64\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;D:\mingw64\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;D:\mingw64\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;D:\mingw64\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;E:\PvZ\third_party\freeglut\FreeGLUTConfig.cmake.in;E:\PvZ\third_party\freeglut\config.h.in;E:\PvZ\third_party\freeglut\freeglut.pc.in;E:\PvZ\third_party\freeglut\freeglut.rc.in;E:\PvZ\third_party\freeglut\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\PvZ\build\freeglut\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/PvZ/third_party/freeglut/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\mingw64\bin\cmake.exe -SE:/PvZ -BE:/PvZ/build --check-stamp-file E:/PvZ/build/freeglut/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\mingw64\share\cmake-3.29\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\mingw64\share\cmake-3.29\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\mingw64\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckCCompilerFlag.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckFunctionExists.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckIncludeFile.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckIncludeFiles.cmake;D:\mingw64\share\cmake-3.29\Modules\CheckTypeSize.cmake;D:\mingw64\share\cmake-3.29\Modules\FindOpenGL.cmake;D:\mingw64\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;D:\mingw64\share\cmake-3.29\Modules\FindPackageMessage.cmake;D:\mingw64\share\cmake-3.29\Modules\GNUInstallDirs.cmake;D:\mingw64\share\cmake-3.29\Modules\Internal\CheckCompilerFlag.cmake;D:\mingw64\share\cmake-3.29\Modules\Internal\CheckFlagCommonConfig.cmake;D:\mingw64\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;D:\mingw64\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;E:\PvZ\third_party\freeglut\FreeGLUTConfig.cmake.in;E:\PvZ\third_party\freeglut\config.h.in;E:\PvZ\third_party\freeglut\freeglut.pc.in;E:\PvZ\third_party\freeglut\freeglut.rc.in;E:\PvZ\third_party\freeglut\src\fg_version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\PvZ\build\freeglut\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\PvZ\build\ZERO_CHECK.vcxproj">
+      <Project>{00A9702C-A8EA-34D5-AF3D-717F989351D5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\PvZ\build\freeglut\freeglut.vcxproj">
+      <Project>{1E904850-778D-3B25-BB08-C9F005EF3162}</Project>
+      <Name>freeglut</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\PvZ\build\freeglut\freeglut_static.vcxproj">
+      <Project>{0106A4AD-EBB1-3CD5-A4DC-9B51186ACBCB}</Project>
+      <Name>freeglut_static</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
